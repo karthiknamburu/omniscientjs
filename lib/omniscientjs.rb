@@ -1,5 +1,6 @@
 require "omniscientjs/version"
 
 module Omniscientjs
-  # Your code goes here...
+  class Engine < ::Rails::Engine 
+  end
 end
